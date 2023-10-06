@@ -18,14 +18,11 @@
 }
 footer{
 
-    background-color:  rgb(47, 2, 71);
+    background-color: rgb(25, 0, 55);
    
 }
 header{
-    background-color:  rgb(47, 2, 71);
-}
-main{
-    margin-bottom: 0px;
+    background-color:  rgb(25, 0, 55);
 }
 body{
  text-align: center;
@@ -40,7 +37,7 @@ p{
     color: rgb(174, 173, 173);
 }
 .header{ 
-    background-color:  rgb(21, 5, 37);
+    background-color:rgb(25, 0, 55);
     color: white;
 }
 .statistic{
@@ -75,7 +72,7 @@ p{
 }
 .girl
 {
-    background-color:   rgb(47, 2, 71);
+    background-color:  rgb(25, 0, 55);
     margin-bottom: 50px;
     margin-top: 0px;
 }
@@ -90,7 +87,7 @@ p{
     border: 1px solid darkgrey;
 }
 .girly{
-   background-color: rgb(47, 2, 71);
+   background-color:rgb(25, 0, 55);
    margin: 0 auto;
    text-align: center;
    padding: 10px 0px 100px 0px;
@@ -115,7 +112,7 @@ p{
     padding: 10px 120px 10px 120px;
     margin: 2px 2px 20px 2px;
     border-radius: 10px;
-    background-color: rgb(47, 2, 71);
+    background-color: rgb(25, 0, 55);
     color: white;
 }
 .inpud{
@@ -123,4 +120,47 @@ p{
     margin: 2px 2px 2px 2px;
     padding: 10px 100px 10px 100px;
     border-radius: 10px;    
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltext{
+    visibility: hidden;
+    width: 150px;
+    background-color: rgb(25, 0, 55); 
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    z-index: 1px;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    border-radius: 10px;
+}
+.tooltip:hover .tooltext{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wrapper {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wrapper h3 {
+    margin-right: 15px;
+    margin-left: 47% ;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
