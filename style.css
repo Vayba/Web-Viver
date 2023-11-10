@@ -12,7 +12,9 @@ html {
 .r20{
     font-size: 20px;
 }
-
+.practica_title:after{
+ background-image: url("images/Group 207.png");
+}
 .r14{
     font-size: 14px;
 }
@@ -21,6 +23,7 @@ html {
     text-align: left;
     font-size: 20px;
     color:black;
+    padding-left: 10px;
 }
 .line nav {
     display: none;
@@ -65,7 +68,13 @@ p{
     position: sticky;
     right: 100000px;
     margin-left: 5px;
-    
+    font-size: 30px;
+}
+.footer{
+    background-color:#141024;
+    color: white;
+    padding-top: 40px;
+    font-size: 25px;
 }
 .statistic{
     color: orangered;
@@ -82,11 +91,18 @@ p{
 .bubon1{
     background-color: rgb(214, 46, 16);
     padding: 25px 150px 25px 150px;
+    position: relative;
+    bottom: 15px;
     border-radius: 5px;
     color:white
 }
 .white{
     color:white;
+}
+.whitekurs{
+    color:white;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .white30{
     color:white;
@@ -108,7 +124,7 @@ p{
 .girl
 {
     background-color:#141024;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-top: 0px;
     
 }
@@ -172,9 +188,13 @@ p{
     position: relative;
 }
 .tooltip{
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    right: 45px;
+    /* position: relative;
     display: inline-block;
-    cursor: pointer;
+    cursor: pointer; */
 }
 .tooltext{
     visibility: hidden;
@@ -198,20 +218,14 @@ p{
 }
 
 .wrapper {
-    width: auto;
+    position: relative;
+    /* width: auto;
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto; */
 }
-
-.wrapper h3 {
-    margin-right: 15px;
-    margin-left: 45% ;  
-
-}
-
-.info {
-    width: 50%;
+.couches{
     display: flex;
-    flex-direction: column;
+    max-width: 2500px;
+    overflow: scroll;
 }
