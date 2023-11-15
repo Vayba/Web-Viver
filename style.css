@@ -216,7 +216,6 @@ p{
     visibility: visible;
     opacity: 1;
 }
-
 .wrapper {
     position: relative;
     /* width: auto;
@@ -229,3 +228,65 @@ p{
     max-width: 2500px;
     overflow: scroll;
 }
+.wrapper1{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .containerdashboard{
+    padding-top: 20px;
+    display: grid;
+    background-color: aqua;
+    grid-template-columns:  repeat(1, 1fr) ;
+    grid-template-rows:  repeat(7, 1fr) ;
+    padding-bottom: 15px;
+  }
+  .containermain{
+    display: grid;
+    margin: 15px;
+    grid-template-columns:  20% 80%;
+    background-color: #a198c6;
+    justify-content: center;
+  }
+  .containermany {
+    display: grid;
+    grid-template-columns:  repeat(1, 1fr) ;
+    grid-template-rows:  repeat(3, 1fr) ;
+    justify-content: center;
+  }
+  .container1{
+    display: grid;
+    grid-template-columns:  repeat(1, 1fr);
+    justify-content: center;
+    place-items: center;
+  }
+  .container2{
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr) ;
+    grid-gap: 5px;
+    justify-content: center;
+  }
+  /* .container2_3{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr)
+  } */
+  .container3{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr) ;
+    justify-content: center;
+  }
+  /* .container3_2{
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr)
+  } */
+  /* .btn {
+    display: inline-block; 
+    background: #8C959D;
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    margin: 10px;
+    text-decoration: none; /
+    border-radius: 3px; 
+   } */
