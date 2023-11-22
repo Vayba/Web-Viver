@@ -1,159 +1,219 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="normalize.css">
-<title>Web</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <title>Web</title>
+  </head>
+  <body>
     <header>
-    <button class="header"><b>ROBO.SCHOOL</b></button>
-    <div class="line">
-       <a href="#phone" ><img src="images/Phone.png" alt="телефон" > </a>
-       <img src="images/Menu.png" alt="меню" class="header-left">
+      <button class="header"><b>ROBO.SCHOOL</b></button>
+      <div class="line">
+        <a href="#phone"
+          ><img src="images/Phone.png" alt="телефон" class="header-left" />
+        </a>
+        <nav class="line_a">
+          <a class="white" href="#school">О школе</a>
+          <!--Ссылки внутри навигационного меню, сам nav внутри div-->
+          <a class="white" href="#couch">Тренеры</a>
+          <a class="white" href="#price">Стоимость</a>
+        </nav>
+        <img src="images/Menu.png" alt="меню" class="header-left" />
         <nav class="line">
-        <a class="white"  href="#school">О школе</a> <!--Ссылки внутри навигационного меню, сам nav внутри div-->
-        <a class="white" href="#couch">Тренеры</a>
-        <a class="white" href="#price">Стоимость</a>
-       </nav>
-    </div>
+          <p class="whiteheader"><b>+7 800 000 11 22</b></p>
+        </nav>
+      </div>
     </header>
     <main>
-    <div class="girly" >
-    <h1 class="white">ROBO SCHOOL</h1>
-    <p class="whitekurs">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
-    <figure class="girl">
-    <img src="images/Woman.png" alt="девочка">
-    </figure>
-    <a href="#price" class="bubon1">Записаться на курс</a>
-    </div>
-    <p id="school" class="left" ><b>Robo School</b> - учреждение
-    для формирования кадрового
-    педагогического резерва в сфере
-    робототехники
-    и программирования 
-    </p>
-    <section>
-      <div>
-        <p class="statistic" >10</p>
-        <p >УМК по различным направлениям по робототехнике</p>
+      <div class="girly">
+        <div class="widgirl">
+          <h1 class="white">ROBO SCHOOL</h1>
+          <p class="whitekurs">
+            Курсы повышения квалификации по робототехнике для педагогов
+            начальной школы
+          </p>
+          <a href="#price" class="bubon12">Записаться на курс</a>
+        </div>
+        <div>
+          <figure class="girl">
+            <img src="images/Woman.png" alt="девочка" />
+          </figure>
+          <a href="#price" class="bubon1">Записаться на курс</a>
+        </div>
       </div>
-      <div>
-        <p class="statistic">20</p>
-        <p >Школ, в которых запущена робототехника</p>
-      </div>
-      <div>
-        <p class="statistic">100</p>
-        <p>Педагогов прошедших курсы повышения квалификации</p>
-      </div>
-      <div>
-        <p class="statistic">10 000</p>
-        <p>Обученных детей на базе собственных центров</p>
-      </div>
-    </section>
-    <section class="kurs">
-     <h2 class="r30">Что вы получите после курса</h2> 
-     <div>
-      <h3 class="r20">Удостоверения</h3>
-      <p>Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
-     </div>
-     <div>
-      <h3 class="r20">Знания</h3>
-      <p>По основам разработки учебно-методических комплексов по робототехнике и программированию</p>
-     </div>
-      <div class="wrapper">
-        <h3 class="r20 practica_title">Практику</h3>
-         <span class="tooltip">
-          <span >
-              <img src="images\Group 207.svg" alt="Значок">
+      <p id="school" class="left">
+        <b>Robo School</b> - учреждение для формирования кадрового
+        педагогического резерва в сфере робототехники и программирования
+      </p>
+      <section class="statistic1000">
+        <div>
+          <p class="statistic">10</p>
+          <p class="statistic10">УМК по различным направлениям по робототехнике</p>
+        </div>
+        <div>
+          <p class="statistic">20</p>
+          <p class="statistic10">Школ, в которых запущена робототехника</p>
+        </div>
+        <div>
+          <p class="statistic">100</p>
+          <p class="statistic10">Педагогов прошедших курсы повышения квалификации</p>
+        </div>
+        <div>
+          <p class="statistic">10 000</p>
+          <p class="statistic10">Обученных детей на базе собственных центров</p>
+        </div>
+      </section>
+      <h2 class="r301">Что вы получите после курса</h2>
+      <button class="bwhite0">При наличии свободных мест</button>
+      <section class="kurs"> 
+        <div class="kursdiv">
+          <h3 class="r20_1">Удостоверения</h3>
+          <p class="kursp">
+            Дающее право преподавать робототехнику для детей 6-12 лет в
+            образовательных учреждениях
+          </p>
+        </div>
+        <div class="kursdiv">
+          <h3 class="r20_1">Знания</h3>
+          <p class="kursp">
+            По основам разработки учебно-методических комплексов по
+            робототехнике и программированию
+          </p>
+        </div>
+        <div class="kursdiv">
+        <div class="wrapper">
+          <h3 class="r20_1 practica_title">Практику</h3>
+          <span class="tooltip">
+            <span>
+              <img src="images\Group 207.svg" alt="Значок" />
+            </span>
+            <span class="tooltext"> При наличии свободных мест</span>
           </span>
-          <span class="tooltext"> При наличии свободных мест</span>
-        </span>
+        </div>
+        <p class="wrapperp kursp">
+          Возможность пройти практику по преподаванию робототехники на базе R:ED
+          LAB (в оффлайн или онлайн формате)
+        </p>
       </div>
-      <p>Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
-      <button class="bwhite">При наличии свободных мест</button>
+        <button class="bwhite">При наличии свободных мест</button>
+      </section>
+      <section class="trener">
+      <h2 class="r30h2" id="couch">Профессиональные Тренеры</h2>
+      <div class="professional">
+        <div class="couches">
+          <div class="couchesbig">
+            <figure class="couchesbig">
+              <img src="images/unsplash_Zz5LQe-VSMY.jpg" alt="Ира" />
+            </figure>
+            <h3 class="r20">Ирина Лайм</h3>
+            <p class="r14">Преподаватель по роботехнике</p>
+            <a
+              href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0"
+              class="red"
+              >Подробнее</a
+            >
+          </div>
+          <div class="couchesbig">
+            <figure class="couchesbig">
+              <img src="images/unsplash_IF9TK5Uy-KI.jpg" alt="Марина" />
+            </figure>
+            <h3 class="r20">Марина Орлова</h3>
+            <p class="r14">Преподаватель по роботехнике</p>
+            <a
+              href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0"
+              class="red"
+              >Подробнее</a
+            >
+          </div>
+          <div class="couchesbig">
+            <figure class="couchesbig">
+              <img src="images/unsplash_OhKElOkQ3RE.jpg" alt="Макс" />
+            </figure>
+            <h3 class="r20">Максим Петров</h3>
+            <p class="r14">преподаватель по программированнию</p>
+            <a
+              href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0"
+              class="red"
+              >Подробнее</a
+            >
+          </div>
+          <div class="couchesbig">
+            <figure class="couchesbig">
+              <img src="images/unsplash_rriAI0nhcbc.jpg" alt="Костя" />
+            </figure>
+            <h3 class="r20">Константин Назаров</h3>
+            <p class="r14">Преподаватель по роботехнике</p>
+            <a
+              href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0"
+              class="red"
+              >Подробнее</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
-  <h2 class="r30" id="couch">Профессиональные</h2>  
-  <h2 class="r30">Тренеры</h2>
-  <div  >
-    <div >
-      <div  class="couches">
-      <div>
-        <figure>
-        <img src="images/unsplash_Zz5LQe-VSMY.jpg" alt="Ира">
+      <h2 id="price" class="30 price">Выберите нужный пакет</h2>
+      <section class="pred">
+        <div  class="packetpur">
+          <h3 class="white30">– PRO –</h3>
+          <div class="pro">
+          <p class="pricew">20.000 ₽</p>
+          <p class="whitemarg">УМК по роботехнике и программированию</p>
+          <a href="#zayava" class="bubon2">Оставить заявку</a>
+          </div>
+        </div>
+        <div class="packet">
+          <h3 class="r30">– ROBO –</h3>
+          <p class="priceb">15.000 ₽</p>
+          <p class="black">УМК по роботехнике</p>
+          <a href="#zayava" class="bubon">Оставить заявку</a>
+        </div>
+        <div class="packet">
+          <h3 class="r30">– PROG –</h3>
+          <p class="priceb">10.000 ₽</p>
+          <p class="black">УМК по программированию</p>
+          <a href="#zayava" class="bubon">Оставить заявку</a>
+        </div>
+      </section>
+      <div class="format">
+        <div class="format1">
+        <div class="format11">
+        <h3 class="whitek">Запишитесь на курс со скидкой 10%</h3>
+        <!--<h3 class="white">со скидкой 10%</h3>-->
+        <p class="whitekurs">Акция действительна до 10 марта 2022 года</p>
+        </div>
+        <form class="format12">
+          <div class="forma">
+            <div><input type="text" placeholder="Имя" class="inpud" /></div>
+            <div><input type="tel" placeholder="Телефон" class="inpud" /></div>
+            <div><input type="email" placeholder="E-mail" class="inpud" /></div>
+            <div>
+              <input
+                type="submit"
+                value="Оформить заявку"
+                id="zayava"
+                class="submeat"
+              />
+            </div>
+          </div>
+        </form>
+        </div>
+        <figure class="perc">
+        <img src="images\background.png" >
         </figure>
-        <h3 class="r20">Ирина Лайм</h3>
-        <p class="r14">Преподаватель по роботехнике</p>
-        <a href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" class="red">Подробнее</a>
       </div>
-      <div  >
-        <figure>
-        <img src="images/unsplash_IF9TK5Uy-KI.jpg" alt="Марина">
-        </figure>
-        <h3 class="r20">Марина Орлова</h3>
-        <p class="r14">Преподаватель по роботехнике</p>
-        <a href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" class="red">Подробнее</a>
+    </main>
+    <footer>
+    <div class="divi">
+      <div class="divi1" >
+        <p class="footer"><b>ROBO.SCHOOL</b></p>
+        <p class="whitefooter" >©ROBO.SCHOOL</p>
       </div>
-      <div >
-        <figure >
-        <img src="images/unsplash_OhKElOkQ3RE.jpg" alt="Макс">
-        </figure>
-        <h3 class="r20">Максим Петров</h3>
-        <p class="r14" >преподаватель по программированнию</p>
-        <a href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" class="red">Подробнее</a>
-      </div>
-      <div class="swiper-slide">
-        <figure>
-        <img src="images/unsplash_rriAI0nhcbc.jpg" alt="Костя">
-        </figure>
-        <h3 class="r20">Константин Назаров</h3>
-        <p class="r14" >Преподаватель по роботехнике</p>
-        <a href="http://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0" class="red">Подробнее</a>
-      </div>
-      </div>
+      <p class="whiteph" id="phone"><b>+7 800 000 11 22</b></p>
+      <p class="whitefooter1">©ROBO.SCHOOL</p>
     </div>
-  </div>
-  <h2 id="price" class="30">Выберите нужный пакет</h2>
-  <section>
-    <div style="background-color:rgb(47, 2, 71);" class="packet">
-      <h3 class="white30">– PRO –</h3>
-      <p class="pricew">20.000 ₽</p>
-      <p class="whitemarg">УМК по роботехнике и программированию</p>
-      <a href="#zayava" class="bubon" >Оставить заявку</a>
-    </div>
-    <div class="packet">
-      <h3 class="r30">– ROBO –</h3>
-      <p class="priceb">15.000 ₽</p>
-      <p class="black">УМК по роботехнике</p>
-      <a href="#zayava" class="bubon">Оставить заявку</a>
-    </div>
-    <div class="packet">
-      <h3 class="r30">– PROG –</h3>
-      <p class="priceb">10.000 ₽</p>
-      <p class="black">УМК по программированию</p>
-      <a href="#zayava" class="bubon">Оставить заявку</a>
-    </div> 
-  </section>
-  <div class="format">
-    <h3 class="white">Запишитесь на курс со скидкой 10%</h3>
-    <!--<h3 class="white">со скидкой 10%</h3>-->
-    <p class="whitekurs">Акция действительна до 10 марта 2022 года</p>
-  <form>
-    <div class="forma">
-    <div><input type="text" placeholder="Имя" class="inpud"></div>
-    <div><input type="tel" placeholder="Телефон" class="inpud"></div>
-    <div><input type="email" placeholder="E-mail" class="inpud"></div>
-    <div><input type="submit" value="Оформить заявку" id="zayava" class="submeat"></div>
-    </div>
-  </form>
-  </div>
-  </main> 
-<footer>
- <p  class="footer" ><b>ROBO.SCHOOL</b></p> 
-<p class="white" id="phone">+7 800 000 11 22 </p>
-<p class="whitefooter">©ROBO.SCHOOL</p>
-<a href="Grid.html" class="btn">Статистика</a>
-</footer>
-</body>
+      <a href="Grid.html" class="btn">Статистика</a>
+    </footer>
+  </body>
 </html>

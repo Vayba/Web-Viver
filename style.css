@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
 html {
     box-sizing: border-box;
     font-size: 14;
@@ -9,7 +11,16 @@ html {
 .r30{
     font-size: 30px;
 }
+.r30h2{
+    font-size: 30px;
+}
+.r301{
+    font-size: 30px;
+}
 .r20{
+    font-size: 20px;
+}
+.r20_1{
     font-size: 20px;
 }
 .practica_title:after{
@@ -27,8 +38,8 @@ html {
 }
 .line nav {
     display: none;
-
 }
+
 .priceb{
     font-size: 50px;
     color:black;
@@ -41,11 +52,6 @@ html {
 .black{
     color:black;
     margin-bottom: 60px;
-}
-footer{
-
-    background-color: #141024;
-   
 }
 header{
     background-color:  #141024;
@@ -75,6 +81,10 @@ p{
     color: white;
     padding-top: 40px;
     font-size: 25px;
+    margin-top: 0px;
+}
+footer{
+    background-color:#141024;
 }
 .statistic{
     color: orangered;
@@ -82,7 +92,12 @@ p{
     font-weight: bolder;
 }
 .bubon{
-
+    background-color: rgb(214, 46, 16);
+    padding: 20px 90px 20px 90px;
+    border-radius: 5px;
+    color:white
+}
+.bubon2{
     background-color: rgb(214, 46, 16);
     padding: 20px 90px 20px 90px;
     border-radius: 5px;
@@ -96,7 +111,25 @@ p{
     border-radius: 5px;
     color:white
 }
+.bubon12{
+    background-color: rgb(214, 46, 16);
+    padding: 25px 150px 25px 150px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 5px;
+    color:white;
+    display: none;
+}
 .white{
+    color:white;
+}
+.whiteph{
+    color:white;
+}
+.whitek{
+    color:white;
+}
+.whiteheader{
     color:white;
 }
 .whitekurs{
@@ -137,12 +170,24 @@ p{
     left: 10000px;
 
 }
+.line_a{
+    display: none;
+    position: sticky;
+}
 .packet{
     border-radius: 10px;
     margin: 30px 30px 30px 30px;
     padding-bottom: 100px;
     text-align: center;
     border: 1px solid darkgrey;
+}
+.packetpur{
+    border-radius: 10px;
+    margin: 30px 30px 30px 30px;
+    padding-bottom: 100px;
+    text-align: center;
+    border: 1px solid darkgrey;
+    background-color: rgb(47, 2, 71)
 }
 .girly{
    background-color:#141024;
@@ -151,7 +196,7 @@ p{
    padding: 10px 0px 100px 0px;
 }
 .format{
-    background-color:orangered;
+    background-color: rgb(213, 32, 39);
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0;
@@ -159,6 +204,16 @@ p{
 }
 .crew{
     text-align: center;
+}
+.bwhite0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    border: 2px solid rgb(242, 233, 233);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: none;
 }
 .bwhite{
     margin-top: 100px;
@@ -171,6 +226,9 @@ p{
 .red{
     color:orangered;
 }
+.perc{
+    display: none;
+}
 .submeat{
     padding:  1.5em 10em 1.5em 10em ;
     margin: 5px 2px 30px 2px;
@@ -181,7 +239,7 @@ p{
 .inpud{
     text-align: center;
     margin: 2px 2px 2px 2px;
-    padding:  1.5em 8em 1.5em 8em ;
+    padding:  20px 150px 20px 150px ;
     border-radius: 10px;    
 }
 .forma{
@@ -226,7 +284,8 @@ p{
 .couches{
     display: flex;
     max-width: 2500px;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 .wrapper1{
     max-width: 1170px;
@@ -268,25 +327,208 @@ p{
     grid-gap: 5px;
     justify-content: center;
   }
-  /* .container2_3{
-    display: grid;
-    grid-template-columns:  repeat(3, 1fr)
-  } */
   .container3{
     display: grid;
     grid-template-columns:  repeat(3, 1fr) ;
     justify-content: center;
   }
-  /* .container3_2{
-    display: grid;
-    grid-template-columns:  repeat(2, 1fr)
-  } */
-  /* .btn {
-    display: inline-block; 
-    background: #8C959D;
-    color: #fff; 
-    padding: 1rem 1.5rem; 
-    margin: 10px;
-    text-decoration: none; /
-    border-radius: 3px; 
-   } */
+   .professional{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .whitefooter{
+    display: none;
+   }
+   @media screen and (min-width: 1024px){
+    .divi1{
+        display: block;
+        position: relative;
+        right: 600px;
+    }
+    .whiteph{
+        font-size: 30px;
+        display: block;
+        position: absolute;
+        padding-top: 10px;
+        right: 100px;
+    }
+    .whitefooter{
+        display: inline-block;
+        text-align: left;
+    }
+    .whitefooter1{
+        display: none;
+    }
+    .divi{
+        display: inline-flex;
+    }
+    .btn{
+        display: none;
+    }
+    .header-left{
+        display: none;
+    }
+    .line nav{
+        display: inline-block;
+    }
+    .line_a nav{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .whiteheader{
+        font-size: 30px;
+        
+    }
+    .r301{
+        padding-top: 70px;
+        padding-left: 5%;
+        padding-right: 50%;
+        text-align: left;
+    }
+    .bwhite{
+        display: none;
+    }
+    .kursp{
+        padding-left: 20%;
+        padding-right: 30%;
+        text-align: left;
+    }
+    .kurs{
+        display: inline-flex;
+        padding-top: 0px;
+    }
+    .tooltip{
+        top: 0px;
+        right: 250px;
+        left: 150px;
+    }
+    .r20_1{
+        text-align: left;
+        padding-left: 20%;
+        padding-right: 0%;
+        margin-right: 0%;
+    }
+    .kursdiv{
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .trener{
+      
+    }
+    .r30h2{
+        padding-top: 100px; 
+        padding-right: 60%;
+        margin-right: 0%;
+    }
+    .couches{
+        width: 90%;
+        height: 90%;
+    }
+    .couchesbig{
+        width: 90%;
+        height: 90%;
+    }
+    .couchesbig figure{
+        padding-right: 25%;
+    }
+    .price{
+        margin-top: 150px;
+        padding-right: 70%;
+    }
+    .pred{
+        display: inline-flex;
+        margin-bottom: 50px;
+    }
+    .packet{
+        width: 400px;
+        height: 400px;
+        margin-top: 75px;
+    }
+    .pro{
+        padding-top: 20px;
+    }
+    .packetpur{
+        width: 400px;
+        height: 500px;
+    }
+    .format1{
+        display: flex;
+
+    }
+    .format11{
+        padding-top: 100px;
+        padding-left: 15%;
+    }
+    .format12{
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 10%;
+    }
+    .perc{
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        width: 2000px;
+        height: 150%;
+    }
+    .whitek{
+        text-align: left;
+        margin-left: 10% ;
+        margin-right: 10% ;
+    }
+    .whitekurs{
+        text-align: left;
+    }
+    }
+
+    @media screen and (min-width: 1200px){
+    .girly{
+        display: flex;
+        padding: 10px 0px 0px 0px;
+    }
+    .bubon1{
+        display: none;
+    }
+    .bubon12{
+        display: inline;
+        position: relative;
+        top: 30px;
+    }
+    .widgirl{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .girl{
+        margin-right: 10%;
+    }
+    .statistic{
+        padding-left: 20%;
+
+        text-align: left;
+    }
+    .statistic10{
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: left;
+    }
+    .statistic1000{
+        display: inline-flex;
+        padding-bottom: 100px;
+    }
+    .left{
+        padding-left: 8%;
+        padding-right: 60%;
+        padding-top: 50px
+    }
+    }
+    @media screen and (min-width: 2300px) and  (max-width: 3000px) {
+        .bwhite0{
+            display: inline;
+            margin-left: 50%;
+            margin-right: 10%;
+            
+        }
+    }
