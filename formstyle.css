@@ -1,0 +1,70 @@
+footer {
+    padding-top: 25px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+main{
+    padding-bottom: 200px;
+}
+.formas{
+    position: relative;
+    display: inline-block;
+    border-width: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 5px;
+}
+.red{
+    color: red;
+}
+.mane{
+    display: inline-block;
+    width: 95%;
+    background-color: aqua;
+    border-width: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 5px;
+    border-style: dashed;
+}
+::placeholder{
+    text-align: center;
+}
+.sub{
+    width: 95%;
+}
+.sub1{
+    width: 40%;
+    background-color: azure;
+    border-radius: 5px;
+}
+.sub2{
+    width: 40%;
+    background-color: brown;
+    border-radius: 5px;
+}
+fieldset{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1024px){
+.footer{
+    transform: scale(1.5);
+    transform: rotate(-30deg); 
+    transform: skew(15deg, 15deg);
+}    
+}
+.radiob:active{
+    transform: rotate(360deg); 
+    transition:  5s;
+    font-size: 25px;
+}
+.radiob:hover{
+    font-size: 20px;
+}
+.radiob:focus{
+    color: blueviolet;
+    font-size: 30px;
+}

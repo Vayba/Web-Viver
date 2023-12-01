@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="formstyle.css" />
+    <title>Web</title>
+  </head>
+  <body>
+    <header>
+        <a class="header" href="Index.html"><b>ROBO.SCHOOL</b></a>
+        <div class="line">
+          <a href="#phone"
+            ><img src="images/Phone.png" alt="телефон" class="header-left" />
+          </a>
+          <nav class="line_a">
+            <a class="white" href="#school">О школе</a>
+            <a class="white" href="#couch">Тренеры</a>
+            <a class="white" href="#price">Стоимость</a>
+            <a class="white" href="form.html">Форма</a>
+          </nav>
+          <img src="images/Menu.png" alt="меню" class="header-left" />
+          <nav class="line">
+            <p class="whiteheader"><b>+7 800 000 11 22</b></p>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <form class="mane" action="//httpbin.org/post" method="post">
+          <div>
+            <h3>Личные данные </h3>
+            <p class="red">Имя*</p>
+            <label></label><input class="sub" type="text" name="Name" required  placeholder="Акакий" class="" />
+            <p>День рождения</p>
+            <label><input class="sub" type="date" name="Data" ></label>
+            <fieldset>
+              <legend>Выберите пол</legend>
+            <div>
+            <label class="radiob" ><input class="sub radiob " name="pol" type="radio" value="Man" checked> <p lass="radiob" >Мужской</p> </label>
+            <label  class="radiob" ><input class="sub radiob" name="pol"  type="radio" value="Woman">   <p lass="radiob" >Женский</p>  </label>
+            <label   class="radiob"><input class="sub radiob"  name="pol"  type="radio" value="Unnow"> <p lass="radiob" >Не определен</p> </label>
+            </div>
+            </fieldset>
+            <p class="red">Пароль*</p>
+            <label ><input  class="sub"  type="password" required placeholder="12345" /></label>
+           </div>
+            <div>
+            <h3>Контактные данные</h3>
+            <p class="red">Телефон*</p>
+            <label><input class="sub" type="tel" name="Phone" placeholder="8 910 298 60 86" required/></label>
+            <p class="red">Почта*</p>
+            <label><input class="sub" type="email" name="Email" placeholder="pypy04@mail.ru" required/></label>
+            <p>Выберите удобное для вас время</p>
+            <div>
+            <select name="Tyme"  >
+            <option value="M">Утро</option>
+            <option value="D">День</option>
+            <option value="E">Вечер</option>
+            <option value="N">Ночь</option>
+            </select>
+             </div>
+            </div>
+            <div>
+            <input type="submit" value="Отправить данные " class="sub1">
+            <input type="reset" value="Сбросить данные " class="sub2">
+            </div>
+            </form>
+      </main>
+      <footer>
+        <div class="divi">
+          <div class="divi1" >
+            <p class="footer"><b>ROBO.SCHOOL</b></p>
+            <p class="whitefooter" >©ROBO.SCHOOL</p>
+        </div>
+          <a href="tel:+79102986086" class="whiteph" id="phone"><b>+7 800 000 11 22</b></a>
+          <p class="whitefooter1">©ROBO.SCHOOL</p>
+        </div>
+          <a href="Grid.html" class="btn">Статистика</a>
+        </footer>
+  </body>
+</html>

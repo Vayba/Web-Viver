@@ -1,6 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 
 
+::placeholder{
+    font-size: 20px;
+}
+::selection{
+    color: orangered;;
+    background-color: #141024;
+}
+a:hover{
+    color: bisque;
+    background-color: aqua;
+    font-size: 25px;
+    transform: rotate(360deg); 
+    transition:  5s;
+}
+button:hover{
+    color: rgb(196, 255, 253);
+    background-color: rgb(157, 0, 255);
+    font-size: 25px;
+    transition:  3s;
+    box-shadow: 10px 5px 5px red;
+}
+a:active{
+    background-color: antiquewhite;
+}
+button:active{
+    transform: rotate(360deg); 
+    transition:  3s;
+}
+button:focus{
+    background-color: white;
+}
 html {
     box-sizing: border-box;
     font-size: 14;
@@ -34,7 +65,7 @@ html {
     text-align: left;
     font-size: 20px;
     color:black;
-    padding-left: 10px;
+   
 }
 .line nav {
     display: none;
@@ -165,9 +196,7 @@ footer{
 .line{
     display: inline-block;
     position: sticky;
-    margin-right: 10px;
-    margin-top: 10px;
-    left: 10000px;
+    left: 3000px;
 
 }
 .line_a{
@@ -340,17 +369,27 @@ footer{
    .whitefooter{
     display: none;
    }
+   .format12{
+    width: 100px;
+    margin-left: 30%;
+    margin-right: 20%;
+   }
+  
    @media screen and (min-width: 1024px){
+    .ROBOCOL{
+        margin-right: 38%;
+    }
     .divi1{
         display: block;
         position: relative;
+        margin-left: 1%;
         right: 600px;
     }
     .whiteph{
         font-size: 30px;
         display: block;
         position: absolute;
-        padding-top: 10px;
+        padding-top: 35px;
         right: 100px;
     }
     .whitefooter{
@@ -374,8 +413,7 @@ footer{
     }
     .line_a nav{
         display: flex;
-        justify-content: center;
-        align-content: center;
+
     }
     .whiteheader{
         font-size: 30px;
@@ -414,9 +452,7 @@ footer{
         padding-left: 0%;
         margin-left: 0%;
     }
-    .trener{
-      
-    }
+ 
     .r30h2{
         padding-top: 100px; 
         padding-right: 60%;
@@ -458,12 +494,13 @@ footer{
 
     }
     .format11{
-        padding-top: 100px;
+        padding-top: 20px;
         padding-left: 15%;
     }
     .format12{
+        width: 300px;
         padding-top: 10px;
-        padding-left: 300px;
+        padding-left: 1px;
         padding-right: 10%;
     }
     .perc{
@@ -481,13 +518,15 @@ footer{
     }
     .whitekurs{
         text-align: left;
+        margin-left: 3%;
     }
     }
 
     @media screen and (min-width: 1200px){
     .girly{
         display: flex;
-        padding: 10px 0px 0px 0px;
+        margin-right: 10px;
+        padding-bottom: 0%;
     }
     .bubon1{
         display: none;
@@ -499,28 +538,31 @@ footer{
     }
     .widgirl{
         margin-top: 10%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .girl{
-        margin-right: 10%;
+        margin-right: 5%;
+        padding-bottom: 0%;
     }
     .statistic{
-        padding-left: 20%;
+        padding-left: 10%;
 
         text-align: left;
     }
     .statistic10{
-        padding-left: 20%;
+        padding-left: 12%;
         padding-right: 20%;
         text-align: left;
     }
     .statistic1000{
         display: inline-flex;
+        margin-left: 8%;
+        margin-right: 20%;
         padding-bottom: 100px;
     }
     .left{
-        padding-left: 8%;
-        padding-right: 60%;
+        padding-left: 10%;
+        padding-right: 0%;
         padding-top: 50px
     }
     }
