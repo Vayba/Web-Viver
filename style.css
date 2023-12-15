@@ -20,27 +20,27 @@ body{
 }
 .statistic10:hover{
     font-size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     transition:  2s;
 }
 .kursp:hover{
     font-size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     transition:  2s;
 }
 .black:hover{
     font-size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     transition:  2s;
 }
 .r14:hover{
     font-size: 25px;
-    color: red;
+    color: rgb(0, 0, 0);
     transition:  2s;
 }
 a:hover{
-    color: bisque;
-    background-color: aqua;
+    color: rgb(255, 140, 0);
+    background-color: rgba(0, 255, 255, 0.47);
     font-size: 25px;
     transform: rotate(360deg); 
     transition:  5s;
@@ -700,6 +700,8 @@ footer{
         padding-left: 12%;
         padding-right: 20%;
         text-align: left;
+        color:#777676 ;
+        background-color: #ffffff;
     }
     .statistic1000{
         display: inline-flex;
