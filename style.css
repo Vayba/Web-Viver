@@ -139,8 +139,13 @@ header{
     display: flex;
     text-align: center;
     justify-content: space-around;
+    width: 100%;
+    height: 100%;
 }
-
+.sto{
+    width: 100%;
+    height: 100%;
+}
 a{
     text-decoration: none;
 }  
@@ -315,7 +320,8 @@ footer{
     font-size: 16px;
 }
 .red{
-    color:orangered;
+    color:rgb(255, 0, 0);
+    font-size: 20px;
 }
 .perc{
     display: none;
@@ -435,6 +441,10 @@ footer{
     width: 100px;
     margin-left: 30%;
     margin-right: 20%;
+   }
+   .gigi{
+    width: 100%;
+    height: 100%;
    }
    @media screen and (min-width:800px) and (max-width: 970px){
     .line{
