@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <button class="header"><b>ROBO.SCHOOL</b></button>
+      <button class="header" tabindex="1"><b>ROBO.SCHOOL</b></button>
       <div class="line">
         <a href="#phone"
           ><img src="images/Phone.png" alt="телефон" class="header-left" />
@@ -40,7 +40,7 @@
         </div>
         <div>
           <figure class="girl">
-            <img src="images/Woman.png" alt="девочка" />
+            <img src="images/Woman.png" alt="" class="gigi" />
           </figure>
           <a href="#price" class="bubon1">Записаться на курс</a>
         </div>
@@ -89,7 +89,7 @@
           <h3 class="r20_1 practica_title">Практику</h3>
           <span class="tooltip">
             <span>
-              <img src="images\Group 207.svg" alt="Значок" />
+              <img src="images\Group 207.svg" alt="Подсказка" />
             </span>
             <span class="tooltext"> При наличии свободных мест</span>
           </span>
@@ -188,11 +188,11 @@
         <!--<h3 class="white">со скидкой 10%</h3>-->
         <p class="whitekurs">Акция действительна до 10 марта 2022 года</p>
         </div>
-        <form class="format12">
+        <form class="format12" action="//httpbin.org/post" method="post">
           <div class="forma">
-            <label><input type="text" name="Name" placeholder="Имя" class="inpud" /></label>
-            <label><input type="tel" name="Phone" placeholder="Телефон" class="inpud" /></label>
-            <label><input type="email" name="Email" placeholder="E-mail" class="inpud" /></label>
+            <label><input type="text" name="Name" placeholder="Имя(Иван)" required class="inpud" /></label>
+            <label><input type="tel" name="Phone" placeholder="Телефон(8910...)" class="inpud" /></label>
+            <label><input type="email" name="Email" placeholder="E-mail" required class="inpud" /></label>
           <div>
               <input
                 type="submit"

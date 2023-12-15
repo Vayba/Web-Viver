@@ -11,6 +11,33 @@ body{
     color: orangered;;
     background-color: #141024;
 }
+.line1:hover{
+    color: bisque;
+    background-color: aqua;
+    font-size: 25px;
+    transform: rotate(360deg); 
+    transition:  5s;
+}
+.statistic10:hover{
+    font-size: 25px;
+    color: red;
+    transition:  2s;
+}
+.kursp:hover{
+    font-size: 25px;
+    color: red;
+    transition:  2s;
+}
+.black:hover{
+    font-size: 25px;
+    color: red;
+    transition:  2s;
+}
+.r14:hover{
+    font-size: 25px;
+    color: red;
+    transition:  2s;
+}
 a:hover{
     color: bisque;
     background-color: aqua;
@@ -41,6 +68,19 @@ html {
   }
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+  .skip-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px 15px;
+    color: #18191c;
+    background: rgb(157, 0, 255);
+    transform: translateY(-100%);
+  }
+  .skip-link:focus {
+    transform: translateY(20%);
   }
 .r30{
     font-size: 30px;
@@ -396,6 +436,32 @@ footer{
     margin-left: 30%;
     margin-right: 20%;
    }
+   @media screen and (min-width:800px) and (max-width: 970px){
+    .line{
+        margin-left: 500px;
+
+    } 
+   }
+   @media screen and (min-width:700px) and (max-width: 800px){
+    .line{
+        margin-left: 400px;
+
+    }
+   }
+   @media screen and (min-width:500px) and (max-width: 700px){
+    .line{
+        margin-left: 250px;
+
+    }
+    
+   }
+   @media screen and (min-width:100px) and (max-width: 500px){
+    .line{
+        margin-left: 150px;
+
+    }
+    
+   }
    @media screen and (min-width: 970px) and  (max-width: 1015px){
     .line{
         margin-left: 680px;
@@ -659,5 +725,22 @@ footer{
             margin-left: 50%;
             margin-right: 10%;
             
+        }
+    }
+    @media screen  and  (max-width: 700px){
+        .gigi{
+            width: 80%;
+            height: 80%;
+        }
+        .format12{
+            margin-left: 10%;
+        }
+        .inpud{
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+        .submeat{
+            padding-left: 120px;
+            padding-right: 120px;
         }
     }
